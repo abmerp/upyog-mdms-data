@@ -1,0 +1,16 @@
+{
+    "tenantId": "hp.arki",
+    "moduleName": "BillingService",
+    "GLCode": [
+        {
+            "code": "BIRTH_CERT",
+            "glcode": null,
+            "cb": "hp.arki"
+        },
+        {
+            "code": "DEATH_CERT",
+            "glcode": null,
+            "cb": "hp.arki"
+        }
+    ]
+}

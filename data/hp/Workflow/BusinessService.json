@@ -1,0 +1,197 @@
+{
+  "tenantId":"hp",
+  "moduleName": "Workflow",
+  "BusinessServices": [
+    {
+      "tenantId":"hp",
+      "businessService": "BPA_FORM_11",
+      "business": "bpa-services",
+      "businessServiceSla": 172800000,
+      "getUri": "",
+      "postUri": "",
+      "states": [
+        {
+          "tenantId":"hp",
+          "sla": null,
+          "state": null,
+          "applicationStatus": null,
+          "docUploadRequired": true,
+          "isStartState": true,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "INITIATE",
+              "nextState": "VERIFICATION1PENDING",
+              "roles": [
+                "BPA_VERIFIER1",
+                "BPA_ARCHITECT",
+                "CITIZEN"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": null,
+          "state": "VERIFICATION1PENDING",
+          "applicationStatus": "Verification Step 1 Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "FORWARD",
+              "nextState": "VERIFICATION2PENDING",
+              "roles": [
+                "BPA_VERIFIER2"
+              ]
+            },
+            {
+              "tenantId":"hp",
+              "action": "CANCEL",
+              "nextState": "",
+              "roles": [
+              	"BPA_VERIFIER1",
+                "BPA_VERIFIER2"
+              ]
+            },
+            {
+              "tenantId":"hp",
+              "action": "INITIATE",
+              "nextState": "VERIFICATION1PENDING",
+              "roles": [
+                "BPA_ARCHITECT",
+                "CITIZEN"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "VERIFICATION2PENDING",
+          "applicationStatus": "Verification Step 3 Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "FORWARD",
+              "nextState": "VERIFICATION3PENDING",
+              "roles": [
+                "BPA_VERIFIER3"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "VERIFICATION3PENDING",
+          "applicationStatus": "Verification Step 4 Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "FORWARD",
+              "nextState": "VERIFICATION4PENDING",
+              "roles": [
+                "BPA_VERIFIER4"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "VERIFICATION4PENDING",
+          "applicationStatus": "Verification Step 5 Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "FORWARD",
+              "nextState": "APPOVALPENDING",
+              "roles": [
+                "BPA_APPROVER"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "APPOVALPENDING",
+          "applicationStatus": "Approval Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "FORWARD",
+              "nextState": "DIGITALSIGNATUREPENDING",
+              "roles": [
+                "BPA_APPROVER"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "DIGITALSIGNATUREPENDING",
+          "applicationStatus": "Digital Signature Pending",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": false,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "REMARKS",
+              "nextState": "DIGISIGNAPPOVALLETTER",
+              "roles": [
+                "BPA_APPROVER"
+              ]
+            }
+          ]
+        },
+        {
+          "tenantId":"hp",
+          "sla": 86400000,
+          "state": "DIGISIGNAPPOVALLETTER",
+          "applicationStatus": "Digitally Signed approval letter and drawing",
+          "docUploadRequired": false,
+          "isStartState": false,
+          "isTerminateState": true,
+          "isStateUpdatable": true,
+          "actions": [
+            {
+              "tenantId":"hp",
+              "action": "",
+              "nextState": "END",
+              "roles": [
+                "CITIZEN",
+                "BPA_ARCHITECT"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

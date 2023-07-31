@@ -1,0 +1,119 @@
+{
+  "tenantId": "hp.baddi",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Baddi",
+        "localname": "Baddi",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "hp.baddi",
+        "children": [
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Harijan Basti",
+            "localname": "Harijan Basti",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Harijan Basti"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Baddi Bazar",
+            "localname": "Baddi Bazar",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Baddi Bazar"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Suraj Mazra Labana-I ",
+            "localname": "Suraj Mazra Labana-I ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Suraj Mazra Labana-I "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Suraj Mazra Labana-II ",
+            "localname": "Suraj Mazra Labana-II ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Suraj Mazra Labana-II "
+          },
+
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Suraj Mazra Gujran Juddi Khurd ",
+            "localname": "Suraj Mazra Gujran Juddi Khurd ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Suraj Mazra Gujran Juddi Khurd "
+          },
+
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Juddi Kalan Katha Bhatoli Kalan ",
+            "localname": "Juddi Kalan Katha Bhatoli Kalan ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Juddi Kalan Katha Bhatoli Kalan "
+          },
+
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Vardhman, Birla and DCM",
+            "localname": "Vardhman, Birla and DCM",
+            "longitude": null,
+            "latitude": null,
+            "label": "Vardhman, Birla and DCM",
+            "code": "Vardhman, Birla and DCM"
+          },
+
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Billanwali Labana",
+            "localname": "Billanwali Labana",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Billanwali Labana"
+          },
+
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Housing Board Phase-III Billanwali Labana",
+            "localname": "Housing Board Phase-III Billanwali Labana",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Housing Board Phase-III Billanwali Labana"
+          }
+        ]
+      }
+    }
+  ]
+}

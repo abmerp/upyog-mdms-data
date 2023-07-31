@@ -1,0 +1,13 @@
+{
+  "tenantId":"hp",
+  "moduleName": "BPA",
+  "BussinessService": [
+    {
+      "Department": "TCP",
+      "Category": "Residential",
+      "FromArea": 0,
+      "ToArea": 500,
+      "BussinessServiceName": "BPA_FORM_12"
+    }
+  ]
+}

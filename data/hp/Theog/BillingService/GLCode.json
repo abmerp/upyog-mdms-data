@@ -1,0 +1,16 @@
+{
+    "tenantId": "hp.theog",
+    "moduleName": "BillingService",
+    "GLCode": [
+        {
+            "code": "BIRTH_CERT",
+            "glcode": null,
+            "cb": "hp.theog"
+        },
+        {
+            "code": "DEATH_CERT",
+            "glcode": null,
+            "cb": "hp.theog"
+        }
+    ]
+}

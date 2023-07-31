@@ -1,0 +1,94 @@
+{
+  "tenantId": "hp.theog",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Theog",
+        "localname": "Theog",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "hp.theog",
+        "children": [
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Janog",
+            "localname": "Janog",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Janog"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Premghat",
+            "localname": "Premghat",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Premghat"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Naya Bazar",
+            "localname": "Naya Bazar",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Naya Bazar"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Ram Bazar ",
+            "localname": "Ram Bazar ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Ram Bazar "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Krishna Galli",
+            "localname": "Krishna Galli",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Krishna Galli"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Shalli Bazar",
+            "localname": "Shalli Bazar",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Shalli Bazar"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Rahighat",
+            "localname": "Rahighat",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Rahighat"
+          }
+        ]
+      }
+    }
+  ]
+}

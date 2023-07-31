@@ -1,0 +1,184 @@
+{
+  "tenantId": "hp.solan",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Solan",
+        "localname": "Solan",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "hp.solan",
+        "children": [
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Dehunghat Saproon",
+            "localname": "Dehunghat Saproon",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Dehunghat Saproon"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Ralway Station ",
+            "localname": "Ralway Station ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Ralway Station "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Kather ",
+            "localname": "Kather ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Kather "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Chambaghat Salogra ",
+            "localname": "Chambaghat Salogra ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Chambaghat Salogra "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Lower Bazar ",
+            "localname": "Lower Bazar ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Lower Bazar "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Jawahar Park ",
+            "localname": "Jawahar Park ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Jawahar Park "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Thodo Ground ",
+            "localname": "Thodo Ground ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Thodo Ground "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Shilly Road ",
+            "localname": "Shilly Road ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Shilly Road "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Chaunri Ghati",
+            "localname": "Chaunri Ghati",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Chaunri Ghati"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Degree College",
+            "localname": "Degree College",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Degree College"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Sunny Side",
+            "localname": "Sunny Side",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Sunny Side"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Kleen",
+            "localname": "Kleen",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Kleen"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Housing Board Colony",
+            "localname": "Housing Board Colony",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Housing Board Colony"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Tehsilpatr",
+            "localname": "Tehsilpatr",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Tehsilpatr"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Rabon Anji",
+            "localname": "Rabon Anji ",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Rabon Anji "
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Basal Patti Kather",
+            "localname": "Basal Patti Kather",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Basal Patti Kather"
+          }
+        ]
+      }
+    }
+   ]
+  }

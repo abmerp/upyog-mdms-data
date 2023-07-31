@@ -1,0 +1,94 @@
+{
+  "tenantId": "hp.arki",
+  "moduleName": "egov-location",
+  "TenantBoundary": [
+    {
+      "hierarchyType": {
+        "code": "REVENUE",
+        "name": "REVENUE"
+      },
+      "boundary": {
+        "id": 1,
+        "boundaryNum": 1,
+        "name": "Arki ",
+        "localname": "Arki ",
+        "longitude": null,
+        "latitude": null,
+        "label": "City",
+        "code": "hp.arki",
+        "children": [
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Mahlaat-I",
+            "localname": "Mahlaat-I",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Mahlaat-I"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Miyanpur",
+            "localname": "Miyanpur",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Miyanpur"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Jhinwar Muhalla",
+            "localname": "Jhinwar Muhalla",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Jhinwar Muhalla"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Chaugan",
+            "localname": "Chaugan",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Chaugan"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Laxmi Narayan Temple",
+            "localname": "Laxmi Narayan Temple",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Laxmi Narayan Temple"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Titla Muhalla",
+            "localname": "Titla Muhalla",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Titla Muhalla"
+          },
+          {
+            "id": "1c7d8d00-7678-4fd4-8dd2-2802daa7249b",
+            "boundaryNum": 1,
+            "name": "Shilla Kakkar",
+            "localname": "Shilla Kakkar",
+            "longitude": null,
+            "latitude": null,
+            "label": "Block",
+            "code": "Shilla Kakkar"
+          }
+        ]
+      }
+    }
+  ]
+}
