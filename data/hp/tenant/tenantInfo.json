@@ -197,6 +197,21 @@
       "isActive": 1,
       "isDeleted": 0,
       "remarks": null
+    },
+    {
+      "name": "BBNDA",
+      "area": null,
+      "totalPop": null,
+      "urbanPop": null,
+      "ruralPop": null,
+      "distCodeTCP": null,
+      "distCode": null,
+      "distCodeTemp": null,
+      "distKey": null,
+      "distCodeGIS": null,
+      "isActive": 1,
+      "isDeleted": 0,
+      "remarks": null
     }
   ]
 }

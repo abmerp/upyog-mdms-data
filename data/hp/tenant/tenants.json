@@ -458,6 +458,42 @@
       "contactNumber": "1762281025",
       "pdfHeader": "HP_LAHAUL&SPITI_PDF_HEADER",
       "pdfContactDetails": "HP_LAHAUL&SPITI_CONTACT_DETAILS"
+    },
+    {
+      "code": "hp.bbnda",
+      "name": "BBNDA",
+      "description": "BBNDA",
+      "logoId": "https://s3.ap-south-1.amazonaws.com/hr-egov-assets/hp.bbnda/logo.png",
+      "imageId": null,
+      "domainUrl": "http://lgHimachal.gov.in/eSewa/BBNDA",
+      "type": "CITY",
+      "twitterUrl": null,
+      "facebookUrl": null,
+      "emailId": "eomcdera@gmail.com",
+      "OfficeTimings": {
+        "Mon - Fri": "9.00 AM - 5.00 PM"
+      },
+      "city": {
+        "name": "BBNDA",
+        "localName": "BBNDA",
+        "districtCode": "15",
+        "districtName": "Solan",
+        "regionName": "BBNDA Region",
+        "ulbGrade": "MC Class I",
+        "longitude": 76.8433,
+        "latitude": 30.5964,
+        "shapeFileLocation": null,
+        "captcha": null,
+        "code": "1502",
+        "regionCode": "6",
+        "tcpName": "BBNDA",
+        "ddrName": "BBNDA-DDR"
+      },
+      "address": "Not available",
+      "pincode": [174103],
+      "contactNumber": null,
+      "pdfHeader": null,
+      "pdfContactDetails": null
     }
   ]
 }
